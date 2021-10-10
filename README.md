@@ -6,7 +6,7 @@
 - After discussion, we agreed on selecting Opal's 'SEED5' that focuses on classifying emotions/ feeling of movies viewers into 5 categories (happy, sad, disgust, fear, neutral)
 - To make things more interesting, we plan to integrate the neuromarketing side of whether or not the audience like or dislike the film
 - Link to dataset: https://bcmi.sjtu.edu.cn/home/seed/index.html
-- Link to article about the selected dataset: https://ieeexplore.ieee.org/abstract/document/8337789
+- Link to article about the selected dataset: https://www.mdpi.com/1424-8220/20/18/5083#framed_div_cited_count
 
 Next step:  
 - Each of us will find 2 articles related to the selected topic 'SEED5' and will share the brief summary of each article
