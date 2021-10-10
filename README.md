@@ -8,6 +8,5 @@
 - Link to dataset: https://bcmi.sjtu.edu.cn/home/seed/index.html
 
 Next step:  
-- Each of us will find 2 articles related to the selected topic and will share the brief summary of each article
-- Opal will
-
+- Each of us will find 2 articles related to the selected topic 'SEED5' and will share the brief summary of each article
+- Opal will contact the linked site to request data for further work
