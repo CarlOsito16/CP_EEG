@@ -12,11 +12,9 @@ Chanakarn (Opal) st122409
       POON 
       - Leveraging spatial-temporal convolutional features for EEG-based emotion recognition https://github.com/CarlOsito16/CP_EEG/blob/main/RelatedArticle/Leveraging%20spatial-temporal%20convolutional%20features%20for%20EEG-based%20emotion%20recognition.pdf
       - Technological advancements and opportunities in Neuromarketing:a systematic review https://github.com/CarlOsito16/CP_EEG/blob/main/RelatedArticle/Neuromarketing.pdf
-      
       BALL
       - EEG Emotion Classification Using an Improved SincNet-Based Deep Learning Model https://github.com/CarlOsito16/CP_EEG/blob/main/RelatedArticle/brainsci-09-00326-v2.pdf
       - An Investigation of Deep Learning Models for EEG-Based Emotion Recognition https://github.com/CarlOsito16/CP_EEG/blob/main/RelatedArticle/fnins-14-622759.pdf
-      
       OPAL 
       - Comparing Recognition Performance andRobustness of Multimodal Deep Learning Models for Multimodal Emotion Recognition https://github.com/CarlOsito16/CP_EEG/blob/main/RelatedArticle/Comparing%20Recognition-2021.pdf
       - Classification of Five Emotions from EEG and Eye Movement Signals: Complementary Representation Properties https://github.com/CarlOsito16/CP_EEG/blob/main/RelatedArticle/Compare%20five%20emotion_2019.pdf
