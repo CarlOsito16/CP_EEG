@@ -4,7 +4,34 @@ Worachot (Ball) st122153 \
 Chanakarn (Opal) st122409
 
 ---
+**Sunday, 24 OCT 2021**
 
+**Article**
+- Each of us presented at least 1 artciles related to EEG emotion analysis
+- Opal presented (1) *Comparing Recognition Performance andRobustness of Multimodal Deep Learning Models for Multimodal Emotion Recognition  and (2)Classification of Five Emotions from EEG and Eye Movement Signals: Complementary Representation Properties*
+- Poon presented *Leveraging spatial-temporal convolutional features for EEG-based emotion recognition*
+- Ball presented *EEG Emotion Classification Using an Improved SincNet-Based Deep Learning Model*
+- All the presentation slides of summary and key points to integrate into our project is https://1drv.ms/p/s!Am04WExKvjhatlWCU9wQJqCX460i?e=ci1OSl 
+
+
+**Coding**
+- We decided to create new gmail account to used shared Google Drive to run Google Colab https://colab.research.google.com/drive/1fCFv7vVP3fxOnBOqEujyMNy38dHH77-v?usp=sharing
+- We started reading the first file (as large as almost 1GB!) and explored the data to understand its shape, features 
+
+**Challenge & Questions!!!**
+- We spent a couple of hours finding way to read the .cnt file.
+- We have questions such as how many files or participants we need to use for our training model. We have as many as 48 files (each file is from each particpant's brain) but each is very large (almost 1GB per file)
+- We are not sure whether we need to read all files and concatenate all the files first and then train the model, or we can use only 1 file to train the model then use that model to retrain on the next file.
+- The label y is provided in label encoded format (0,1,2,3,4) for 5 different emotion classes, but we are thinking whether we need to use the one-hot encoder instead so that we can use the cross-entropy loss function on the predicted probability of each class
+
+**Next Steps**
+Basically, we are aiming at train and test the first NN model on this first file
+- So, we need to transform the provided y label to one-hot encoded format
+- Data preprocessing such as: bandpass limit, power line dropping, artefact removal, Fourier transformation, PCA
+- Create the first NN model to train, predict and test the result
+
+
+---
 **Sunday, 17 OCT 2021**
 - Opal already acquired the SEED-V dataset from BMCI and uploaded all the datasets into https://drive.google.com/drive/folders/1LvlpX7BbJ321JfBjQs50vvq53-RBEk3W?usp=sharing
 - Poon read and talked briefly about "EEG-Based BCI Emotion Recognition: A Survey" that tries to explore multiple methodologies that can be utilized from signal acquistion > preprocession > feature extraction > analysis > performance evaluation
