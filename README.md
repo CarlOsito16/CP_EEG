@@ -25,6 +25,7 @@ Chanakarn (Opal) st122409
 - The label y is provided in label encoded format (0,1,2,3,4) for 5 different emotion classes, but we are thinking whether we need to use the one-hot encoder instead so that we can use the cross-entropy loss function on the predicted probability of each class
 
 **Next Steps**
+
 Basically, we are aiming at train and test the first NN model on this first file
 - So, we need to transform the provided y label to one-hot encoded format
 - Data preprocessing such as: bandpass limit, power line dropping, artefact removal, Fourier transformation, PCA
