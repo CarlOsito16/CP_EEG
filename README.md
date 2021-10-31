@@ -4,6 +4,27 @@ Worachot (Ball) st122153 \
 Chanakarn (Opal) st122409
 
 ---
+**Sunday, 31 OCT 2021**
+
+**Main Achievements**
+- We have finished the basic data proprocessing. Luckily, in our dataset, the powerline noise has been removed. 
+- So we go to next steps: bandpass filtering and implemented ICA to remove some of the insignificant channels /features (5 removed from 16 ICAs)
+- We are creating the y label which represents the audience sentiment for each movie clip in each session
+
+
+**CHALLENGE & LESSON**
+- We tried to follow professor's instruction code, but it was originally in csv. We tried to replicate our cnt.file to csv, but turned out that the opearations took so much time, and resulted in error
+- For some reason, our dataset, when assinged to set_montage, keeps returning error that there are no EEG channels. That prevents us from furthering to the next process. At first, we tried using parameter 'on_missing = 'ignore'' to avoid the errors, but ended up seeing more errors during the ICA process.
+- We digged deep to MNE documentation to find out what solutions can be done. We even created our own montage, but still failed to make it run.
+- Lastly, we ended up removing channels that caused the error. We also tried parameter match_case = False, to allow some different EEG names
+- After all the preprocessing, in our dataset, the y label is not available, making us still stuck with creating it for training-the-model part. We saw 2 different approaches. One using Epoch like professor's code, and the other from paper creating each matrix for each movie clip session and then stacking together.
+
+**Next Steps**
+- Finish X,y and start training at least one model
+- After getting the first result, try some different data preprocessing and implementation to compare model accuracy.
+
+
+---
 **Sunday, 24 OCT 2021**
 
 **Article**
@@ -28,7 +49,7 @@ Chanakarn (Opal) st122409
 
 Basically, we are aiming at train and test the first NN model on this first file
 - So, we need to transform the provided y label to one-hot encoded format
-- Data preprocessing such as: bandpass limit, power line dropping, artefact removal, Fourier transformation, PCA
+- Data preprocessing such as: bandpass limit, power line dropping, artefact removal, Fourier transformation, ICA
 - Create the first NN model to train, predict and test the result
 
 
