@@ -7,15 +7,31 @@ Chanakarn (Opal) st122409
 **Sunday, 7 NOV 2021**
 
 **Main Achievements**
-- Taking the feedback from prof, we tentatively finalizes the main hypothesis that our project try to focus
+- Taking the feedback from prof, we tentatively finalize the main hypothesis that our project tries to focus. These following are inspired by multiples papers related to SEED-V
 
-      HYPOTHESIS
+      HYPOTHESIS & SCOPE
+      1) Compare the performance of each 5 frequency bands (alpha, beta, gamma, theta, delta) on emotion recognition. (Any band is more important?)
+      2) Classification recognition by training on individual-dependent approch VS session-dependent approach
+      3) Normalization by using the pre-stimulated stages
+      
+      2 classification models: SVM and Deep Neural Network
+      
+CODING
+      
+- We have successfully extracted the events of each participant sessions.
+- We found out that the dataset files from the SEED-V institute has already been cleaned and preprocessed into Differential Entropy through Fourier Transformation. So as to practice how to get there, we are using a raw format file to try preprocessing and extracting features into the same output. However, we are now struggling with applying Fourier Transformation on our dataset.
+- We organized the pre-processed data into X, y and tried our first SVM classfication that yields accuracy of 67%, almost the same as our reference paper.
 
-
+READING & OTHERS
+ 
 - Opal has shared the new paper *"Review on Emotion Recognition Based on Electroencephalography"*. This one provides broad end-to-end overview of how to preprocess, extract features and train EEG related to emotion recognition
 - Poon has shared the new paper *"Classification of 5 Emotions of EEG and Eye Movement Signal: Discrimination Ability and Stability over Time"*. This papers works on SEED-V by using brain signal, eye movement and the combined modalities to predict the sentiment recognition
 - Ball has shared some of the github repo that works on MNE coding library
 
+
+**NEXT STEPS**
+- each of us will read the additional, abovementioned papers from Opal and Poon. As it will be used as main referened papers.
+- each of us will try working on Fourier transformation, and try implementing differernt models according to our hypothesis.
 
 
 ---
