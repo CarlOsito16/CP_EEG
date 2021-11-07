@@ -4,6 +4,21 @@ Worachot (Ball) st122153 \
 Chanakarn (Opal) st122409
 
 ---
+**Sunday, 7 NOV 2021**
+
+**Main Achievements**
+- Taking the feedback from prof, we tentatively finalizes the main hypothesis that our project try to focus
+
+      HYPOTHESIS
+
+
+- Opal has shared the new paper *"Review on Emotion Recognition Based on Electroencephalography"*. This one provides broad end-to-end overview of how to preprocess, extract features and train EEG related to emotion recognition
+- Poon has shared the new paper *"Classification of 5 Emotions of EEG and Eye Movement Signal: Discrimination Ability and Stability over Time"*. This papers works on SEED-V by using brain signal, eye movement and the combined modalities to predict the sentiment recognition
+- Ball has shared some of the github repo that works on MNE coding library
+
+
+
+---
 **Sunday, 31 OCT 2021**
 
 **Main Achievements**
