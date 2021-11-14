@@ -4,6 +4,20 @@ Worachot (Ball) st122153 \
 Chanakarn (Opal) st122409
 
 ---
+**Sunday, 14 NOV 2021**
+** Main Achievements**
+
+- We have tried using deep neural network on the first partcipant, the performance accuracy is at around 70%, slightly better than SVM.
+- We have created the class partcipantData that helps genenerate all the dataset from 16 participants and 3 sessions, with customizable frequency band.
+
+** Next Step**
+- Ball works on presentation slides: scope overview and project approach
+- Opal works on presentation slides: project initiative
+- Poon works on creating the class sessionData that that helps genenerate all the dataset from 16 participants and 3 sessions, with customizable frequency band
+- Each of us tries to use theses clases to train and test with SVM and NN to find the best hyperparameters. The result will be stored in the google sheet table
+
+---
+
 **Sunday, 7 NOV 2021**
 
 **Main Achievements**
