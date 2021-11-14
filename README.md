@@ -5,6 +5,7 @@ Chanakarn (Opal) st122409
 
 ---
 **Sunday, 14 NOV 2021**
+
 ** Main Achievements**
 
 - We have tried using deep neural network on the first partcipant, the performance accuracy is at around 70%, slightly better than SVM.
