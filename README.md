@@ -6,12 +6,12 @@ Chanakarn (Opal) st122409
 ---
 **Sunday, 14 NOV 2021**
 
-** Main Achievements**
+**Main Achievements**
 
 - We have tried using deep neural network on the first partcipant, the performance accuracy is at around 70%, slightly better than SVM.
 - We have created the class partcipantData that helps genenerate all the dataset from 16 participants and 3 sessions, with customizable frequency band.
 
-** Next Step**
+**Next Step**
 - Ball works on presentation slides: scope overview and project approach
 - Opal works on presentation slides: project initiative
 - Poon works on creating the class sessionData that that helps genenerate all the dataset from 16 participants and 3 sessions, with customizable frequency band
