@@ -3,6 +3,23 @@ Kanawut (Poon) st122109 \
 Worachot (Ball) st122153 \
 Chanakarn (Opal) st122409
 
+
+
+---
+**Sunday, 21 NOV 2021**
+
+**Main Achievements**
+
+- Run every model against our hypotheses on both subject-independent and session-based approaches, keep track of the accuracy results, visualize and save in the result pages
+- Make the final presentaion slides
+
+
+**Next Step**
+- Trim and organize all the codes and slides for final presentation
+
+---
+
+
 ---
 **Sunday, 14 NOV 2021**
 
