@@ -4,6 +4,24 @@ Worachot (Ball) st122153 \
 Chanakarn (Opal) st122409
 
 
+---
+**Sunday, 28 NOV 2021**
+
+**Main Achievements**
+- Addtional tensorboard to try out hyperparameter tuning for comparison with our previous results
+
+**PROJECT SUBMISSION**
+
+Link to our work directory: https://drive.google.com/drive/folders/1jJlyaXQwvORCr2YUvQab_n0kwIaeMBQ8?usp=sharing
+
+1) Folder *'CentralFile'* contains all working file, with the final file named 'FinalFile.ipynb'\
+2) Folder *'Datasets'* contains
+  
+- raw_data: contains raw EEG data (.cnt file) collected with Neuroscan device.  Raw data are named in "subjectID_sessionID_date.cnt" format. For example, "1_1_20180804.cnt" means that this is the raw data of the first subject and first session. **Notice: because of the file size we only update 3 files (session) from the first participant**
+- preprocessed_data: contains data of 16 participants (.npz file).  Feature data are named in "subjectID_sessionID.npz". For example, file "1_123.npz" means that this is the dataset for the first subject and from three sessions
+
+3) *'result'* spreadsheet file contains the summary of accuracy result from SVM, NN (before tensorboard), and NN (after tensorboard) for both subject-independent and session-based training approaches
+
 
 ---
 **Sunday, 21 NOV 2021**
