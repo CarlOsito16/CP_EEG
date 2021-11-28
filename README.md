@@ -22,6 +22,8 @@ Link to our work directory: https://drive.google.com/drive/folders/1jJlyaXQwvORC
 
 3) *'result'* spreadsheet file contains the summary of accuracy result from SVM, NN (before tensorboard), and NN (after tensorboard) for both subject-independent and session-based training approaches.
 
+Link: https://docs.google.com/spreadsheets/d/18jTJ1l8IoahsUPNLJNxp7XlV8D0JdrUG5TcdEPEOQqk/edit?usp=sharing
+
 
 ---
 **Sunday, 21 NOV 2021**
