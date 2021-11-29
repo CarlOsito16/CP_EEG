@@ -44,7 +44,6 @@ link: https://docs.google.com/presentation/d/1SXF2A1UCscwQ7MBZUSAdMieHb816HPJ9/e
 ---
 
 
----
 **Sunday, 14 NOV 2021**
 
 **Main Achievements**
